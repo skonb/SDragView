@@ -14,6 +14,7 @@
 		846C556B1F7280A4008D9026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C55691F7280A4008D9026 /* LaunchScreen.storyboard */; };
 		846C55761F7280A4008D9026 /* SDragViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C55751F7280A4008D9026 /* SDragViewTests.swift */; };
 		846C55811F7280A4008D9026 /* SDragViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C55801F7280A4008D9026 /* SDragViewUITests.swift */; };
+		846C558F1F7280BC008D9026 /* SDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C558E1F7280BC008D9026 /* SDragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		846C557C1F7280A4008D9026 /* SDragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C55801F7280A4008D9026 /* SDragViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDragViewUITests.swift; sourceTree = "<group>"; };
 		846C55821F7280A4008D9026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C558E1F7280BC008D9026 /* SDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				846C55671F7280A4008D9026 /* Assets.xcassets */,
 				846C55691F7280A4008D9026 /* LaunchScreen.storyboard */,
 				846C556C1F7280A4008D9026 /* Info.plist */,
+				846C558E1F7280BC008D9026 /* SDragView.swift */,
 			);
 			path = SDragView;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					846C555C1F7280A3008D9026 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EV4QR9FNKX;
 						ProvisioningStyle = Automatic;
 					};
 					846C55701F7280A4008D9026 = {
@@ -261,6 +265,7 @@
 			files = (
 				846C55631F7280A3008D9026 /* ViewController.swift in Sources */,
 				846C55611F7280A3008D9026 /* AppDelegate.swift in Sources */,
+				846C558F1F7280BC008D9026 /* SDragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EV4QR9FNKX;
 				INFOPLIST_FILE = SDragView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SDragView.SDragView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SDragView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,9 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EV4QR9FNKX;
 				INFOPLIST_FILE = SDragView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SDragView.SDragView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SDragView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
