@@ -1,6 +1,6 @@
 # SDragView
 
-![Alt text](https://github.com/DhruvinThumar/SDragView/blob/master/IMG_0125.PNG?raw=true "")
+<img src="https://github.com/DhruvinThumar/SDragView/blob/master/IMG_0125.PNG" width="300" height="500"/>
 
 Bottom Drawer view with animation
 
