@@ -1,6 +1,6 @@
 # SDragView
 
-[![solarized dualmode](https://github.com/DhruvinThumar/SDragView/raw/master/img/IMG_0125.png)]
+![Alt text](https://github.com/DhruvinThumar/SDragView/raw/master/img/IMG_0125.png)]
 
 Bottom Drawer view with animation
 
