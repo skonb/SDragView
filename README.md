@@ -9,6 +9,7 @@ Simply add 'SDragView.swift' file to your Xcode project.
 Initialize 'SDragView' in viewDidAppear.
 
 let dragView = SDragView(dragViewAnimatedTopSpace:25, viewDefaultHeightConstant:40) 
+
 self.view.addSubview(dragView)
 
 # License
