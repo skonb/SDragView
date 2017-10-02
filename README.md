@@ -1,6 +1,6 @@
 # SDragView
 
-<img src="https://github.com/DhruvinThumar/SDragView/blob/master/SDragView/ezgif-1-d2318947dd.gif" width="300" height="500"/>
+<iframe src="https://appetize.io/embed/56ydg7ab5vppw2kzff9p4y2bvw?device=iphone5s&scale=100&autoplay=false&orientation=portrait&deviceColor=black" width="378px" height="800px" frameborder="0" scrolling="no"></iframe>
 
 Bottom Drawer view with animation
 
