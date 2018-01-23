@@ -88,8 +88,14 @@ class SDragView: UIView {
                 {
                     if("\(self.frame.size.width)" != "\(String(describing: self.superview?.frame.size.width))")
                     {
+                        if self.frame.size.width >= (self.superview?.frame.size.width)!
+                        {
+                            self.frame = CGRect(x: self.frame.origin.x, y:self.frame.origin.y , width: self.frame.size.width, height: self.frame.size.height)
+                        }
+                        else{
+                            self.frame = CGRect(x: self.frame.origin.x - 2, y:self.frame.origin.y , width: self.frame.size.width + 4, height: self.frame.size.height)
+                        }
                         
-                        self.frame = CGRect(x: self.frame.origin.x - 2, y:self.frame.origin.y , width: self.frame.size.width + 4, height: self.frame.size.height)
                     }
                 }
                 else
