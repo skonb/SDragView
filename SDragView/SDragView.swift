@@ -31,7 +31,7 @@ class SDragView: UIView {
         let screenSize: CGRect = UIScreen.main.bounds
         dragViewDefaultTopMargin = screenSize.height - viewDefaultHeight
         
-        super.init(frame: CGRect(x: 10, y:dragViewDefaultTopMargin , width: screenSize.width - 20, height: screenSize.height))
+        super.init(frame: CGRect(x: 10, y:dragViewDefaultTopMargin , width: screenSize.width - 20, height: screenSize.height - dragViewAnimatedTopMargin))
         
         self.backgroundColor = viewBackgroundColor//.withAlphaComponent(0.20) //
         self.layer.cornerRadius = self.viewCornerRadius
