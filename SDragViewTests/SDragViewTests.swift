@@ -3,7 +3,7 @@
 //  SDragViewTests
 //
 //  Created by Admin on 9/20/17.
-//  Copyright © 2017 V3Cube. All rights reserved.
+//  Copyright © 2017 DhruvinThumar. All rights reserved.
 //
 
 import XCTest
